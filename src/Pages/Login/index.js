@@ -9,8 +9,8 @@ export default function Login() {
 
    return (
       <Container>
-         <Botao onClick={() => handleSignin()}>
-            Login com o google
+         <Botao onClick={handleSignin}>
+            Entre com sua conta google
          </Botao>
       </Container>
    );
